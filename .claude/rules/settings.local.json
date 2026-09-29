@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/exer-ui-kit/extract-my-prompts.sh",
+            "statusMessage": "Prompt.md 기록 갱신 중...",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
